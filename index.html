@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.0/yeti/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-chJtTd1EMa6hQI40eyJWF6829eEk4oIe7b3nNtUni7VxA3uHc/uIM/8ppyjrggfV"
+      crossorigin="anonymous"
+    />
+    <title>Доска объявлений</title>
+  </head>
+  <body>
+    <!-- Header -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary mb-5">
+      <a class="navbar-brand" href="#">Доска объявлений</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarColor01"
+        aria-controls="navbarColor01"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarColor01">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#"
+              >Лента <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./cabinet.html">Личный кабинет</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./add.html">Разместить объявление</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./auth.html">Выйти</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input
+            class="form-control mr-sm-2"
+            type="text"
+            placeholder="Поиск объявлений"
+          />
+          <button class="btn btn-secondary my-2 my-sm-0" type="submit">
+            Найти
+          </button>
+        </form>
+      </div>
+    </nav>
+
+    <!-- Catalog -->
+
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-3 col-lg-6 col-sm-12">
+          <div class="card mb-3">
+            <h3 class="card-header">Продам айфон 7</h3>
+            <div class="card-body">
+              <h6 class="card-subtitle text-muted">#продажа</h6>
+            </div>
+            <img
+              class="img-fluid rounded mx-auto d-block"
+              style="width: 200px; height: 150px;"
+              src="https://www.notebookcheck-ru.com/fileadmin/_processed_/csm_intro_iphone7Plus_6f784d2d0f.jpg"
+              alt="Card image"
+            />
+            <div class="card-body">
+              <p class="card-text">
+                Состояние близкое к идеалу, видно по фото. Тач айди и все
+                остальные функции работают. В комплекте всё, кроме наушников.
+              </p>
+            </div>
+            <div class="card-body">
+              <a href="#" class="card-link">Написать в лс</a> <br />
+              <a href="#" class="card-link" style="margin-left: 0;"
+                >Комментировать</a
+              >
+            </div>
+            <div class="card-footer text-muted">
+              22:17
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xl-3 col-lg-6 col-sm-12">
+          <div class="card mb-3">
+            <h3 class="card-header">Ищу препода</h3>
+            <div class="card-body">
+              <h6 class="card-subtitle text-muted">#преподаватели</h6>
+            </div>
+            <div class="card-body">
+              <p class="card-text">
+                Здравствуйте, никто не знает, как можно связаться с
+                преподователем Зима Ю. А.?
+              </p>
+            </div>
+            <div class="card-body">
+              <a href="#" class="card-link">Написать в лс</a> <br />
+              <a href="#" class="card-link" style="margin-left: 0;"
+                >Комментировать</a
+              >
+            </div>
+            <div class="card-footer text-muted">
+              14:11
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xl-3 col-lg-6 col-sm-12">
+          <div class="card mb-3">
+            <h3 class="card-header">Сниму жильё</h3>
+            <div class="card-body">
+              <h6 class="card-subtitle text-muted">#жильё</h6>
+            </div>
+            <div class="card-body">
+              <p class="card-text">
+                Ребят, до 15 нужна однушка, желательно в Гагаринском районе.
+                Есть варианты ?
+              </p>
+            </div>
+            <div class="card-body">
+              <a href="#" class="card-link">Написать в лс</a> <br />
+              <a href="#" class="card-link" style="margin-left: 0;"
+                >Комментировать</a
+              >
+            </div>
+            <div class="card-footer text-muted">
+              10:57
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xl-3 col-lg-6 col-sm-12">
+          <div class="card mb-3">
+            <div class="card-body">
+              <h6 class="card-subtitle text-muted">#транспорт</h6>
+            </div>
+            <div class="card-body">
+              <p class="card-text">
+                Кто ехал с Евпатории в Севастополь? Нормально ли пропускают?
+              </p>
+            </div>
+            <div class="card-body">
+              <a href="#" class="card-link">Написать в лс</a> <br />
+              <a href="#" class="card-link" style="margin-left: 0;"
+                >Комментировать</a
+              >
+            </div>
+            <div class="card-footer text-muted">
+              2 дня назад
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
